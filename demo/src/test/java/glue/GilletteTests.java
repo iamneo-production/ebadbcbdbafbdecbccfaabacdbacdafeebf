@@ -64,11 +64,11 @@ public class GilletteTests {
         
     }
 
-    @When("^the user submits feedback message$")
-    public void the_user_submits_feedback_message() {
-        System.out.println("User submits feedback message");
+    // @And("^the user submits feedback message$")
+    // public void the_user_submits_feedback_message() {
+    //     System.out.println("User submits feedback message");
         
-    }
+    // }
 
     @Then("^feedback should be received on the admin page$")
     public void feedback_should_be_received_on_the_admin_page() {
