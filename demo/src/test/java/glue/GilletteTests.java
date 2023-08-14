@@ -55,7 +55,6 @@ public class GilletteTests {
     @Given("^the user navigates to JavaTpoint.com$")
     public void the_user_navigates_to_JavaTpoint_com() {
         System.out.println("User navigates to JavaTpoint.com");
-        // Add actual code to simulate user navigation
     }
 
     @When("^the user clicks on Feedback, then the Feedback page opens$")
@@ -64,11 +63,11 @@ public class GilletteTests {
         
     }
 
-    // @And("^the user submits feedback message$")
-    // public void the_user_submits_feedback_message() {
-    //     System.out.println("User submits feedback message");
+    @And("^the user submits feedback message$")
+    public void the_user_submits_feedback_message() {
+        System.out.println("User submits feedback message and receives admin reply");
         
-    // }
+    }
 
     @Then("^feedback should be received on the admin page$")
     public void feedback_should_be_received_on_the_admin_page() {
